@@ -1,6 +1,5 @@
 [ Projet NEXUS ]
 ================
-
 de Sidoine B.
 
 

@@ -22,6 +22,7 @@ choix = input("Tapez votre choix :")
 
 if choix == 1:
 	from Pack.Nexus_glycemie.py import algo_glycemie
+	algo_glycemie()
 	
 
 # Choix algorithme collier cervical
@@ -38,6 +39,7 @@ if choix == 3:
 
 if choix == 4:
 	from Pack.Nexus_glasgow.py import algo_glasgow
+	algo_glasgow()
 
 # Choix de la fiche d'intervention
 

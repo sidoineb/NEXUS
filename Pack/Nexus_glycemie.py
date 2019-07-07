@@ -8,7 +8,7 @@ def algo_glycemie():
 
 		choixGly = input("Tapez votre choix :\n")
           
-		if choixGly == 1:
+		if choixGly == "1":
 			ValeurGly1 = input("Entrez votre valeur en g/L :\n")
 			try:
 				ValeurGly1 = float(ValeurGly1)
@@ -21,7 +21,7 @@ def algo_glycemie():
 			
 			exit()
 
-		if choixGly == 2:
+		if choixGly == "2":
 			ValeurGly2 = input("Entrez votre valeur en mmol/L\n :")
 			try:
 				ValeurGly2 = float(ValeurGly2)

@@ -14,10 +14,11 @@ def algo_glasgow():
 	try:
 		eyes = [1,2,3,4]
 		eyes = int(eyes)
+
+		print("Votre réponse enregistrèe est", eyes)
+
 	except:
 		print("Valeur incorrecte\n")
-	else:
-		print("Votre réponse enregistrèe est", eyes)
 
 
 	print("2) Reponse Verbale\n")
@@ -31,10 +32,12 @@ def algo_glasgow():
 	try:
 		verb = [1,2,3,4,5)
 		verb = int(verb)
+
+		print("Votre réponse enregistrèe est", verb)
+
 	except:
 		print("Valeur incorrecte\n")
-	else:
-		print("Votre réponse enregistrèe est", verb)
+
 
 	print("3) Reponse Motrice\n")
 	print("Aux ordres : 6")
@@ -48,12 +51,16 @@ def algo_glasgow():
 	try:
 		motr = [1,2,3,4,5,6]
 		motr = int(motr)
+
+		print("Votre réponse enregistrèe est", motr)
+
 	except:
 		print("Valeur incorrecte\n")
-	else:
-		print("Votre réponse enregistrèe est", motr)
+		
 
 	calculG = eyes + verb + motr
 	calculG = int(calculG)
 
 	print("Calcul du score de Glasgow à", calculG)
+
+	exit()

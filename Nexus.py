@@ -14,12 +14,7 @@ print("  5) Fiche d'intervention\n")
 
 # Variables des choix
 
-choix1 = int(1)
-choix2 = int(2)
-choix3 = int(3)
-choix4 = int(4)
-choix5 = int(5)
-
+choix = [1,2,3,4]
 
 choix = input("Tapez votre choix :")
 
@@ -35,22 +30,22 @@ if choix == 1:
 		if choixGly == 1:
 			ValeurGly1 = input("Entrez votre valeur en g/L :\n")
 			try:
-			ValeurGly1 = float(ValeurGly1)
-			Valeurmmol = float(ValeurGly1) * 5.5
+				ValeurGly1 = float(ValeurGly1)
+				Valeurmmol = float(ValeurGly1) * 5.5
 			except:
-			print("Valeur incorrecte")
+				print("Valeur incorrecte")
 			else:
-			print("Votre dosage de glycémie en mmol/L est de", Valeurmmol)
+				print("Votre dosage de glycémie en mmol/L est de", Valeurmmol)
 
 		if choixGly == 2:
 			ValeurGly2 = input("Entrez votre valeur en mmol/L\n :")
 			try:
-			ValeurGly2 = float(ValeurGly2)
-			Valeurgl = float(ValeurGly2) * 0.18
+				ValeurGly2 = float(ValeurGly2)
+				Valeurgl = float(ValeurGly2) * 0.18
 			except:
-			print("Valeur incorrecte")
+				print("Valeur incorrecte\n")
 			else:
-			print("Votre dosage de glycémie en g/L est de", Valeurgl)
+				print("Votre dosage de glycémie en g/L est de", Valeurgl)
 
 # Choix algorithme collier cervical
           
@@ -67,26 +62,54 @@ if choix == 3:
 if choix == 4:
 	print("Score de Glasgow\n")
 
-	eyes = input("L'ouverture des yeux :\n")
-	eyes_spon = int(4)
-	eyes_dem = int(3)
-	eyes_dou = int(2)
-	eyes_auc = int(1)
+	print("1) Ouverture des yeux\n")
+	print("Spontanée : 4")
+	print("A la demande : 3")
+	print("A la douleur : 2")
+	print("nulle : 1\n")
+	eyes = input("Votre choix:\n")
 
-	verb = input("La réponse verbale :\n")
-	verb_orien = int(5)
-	verb_conf = int(4)
-	verb_inap = int(3)
-	verb_incom = int(2)
-	verb_auc = int(1)
+	try:
+		eyes = [1,2,3,4]
+		eyes = int(eyes)
+	except:
+		print("Valeur incorrecte\n")
+	else:
+		print("Votre réponse enregistrèe est", eyes)
 
-	motr = input("La réponse motrice :\n")
-	motr_obdem = int(6)
-	motr_ordou = int(5)
-	motr_evna =int(4)
-	motr_flexdou = int(3)
-	motr_extdou = int(2)
-	motr_auc = int(1)
+
+	print("2) Reponse Verbale\n")
+	print("Normale : 5")
+	print("Confuse : 4")
+	print("Inappropriee : 3")
+	print("Incomprehensive : 2")
+	print("Nulle : 1\n")
+	verb = input("Votre choix :\n")
+	
+	try:
+		verb = [1,2,3,4,5)
+		verb = int(verb)
+	except:
+		print("Valeur incorrecte\n")
+	else:
+		print("Votre réponse enregistrèe est", verb)
+
+	print("3) Reponse Motrice\n")
+	print("Aux ordres : 6")
+	print("Oriente : 5")
+	print("Evitement : 4")
+	print("Flexion stereotypee : 3")
+	print("Extension stereotypee : 2")
+	print("Nulle : 1\n")
+	motr = input("Votre choix :\n")
+	
+	try:
+		motr = [1,2,3,4,5,6]
+		motr = int(motr)
+	except:
+		print("Valeur incorrecte\n")
+	else:
+		print("Votre réponse enregistrèe est", motr)
 
 	calculG = eyes + verb + motr
 	calculG = int(calculG)

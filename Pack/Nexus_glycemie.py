@@ -13,17 +13,24 @@ def algo_glycemie():
 			try:
 				ValeurGly1 = float(ValeurGly1)
 				Valeurmmol = float(ValeurGly1) * 5.5
+
+				print("Votre dosage de glycémie en mmol/L est de", Valeurmmol)
+
 			except:
 				print("Valeur incorrecte")
-			else:
-				print("Votre dosage de glycémie en mmol/L est de", Valeurmmol)
+			
+			exit()
 
 		if choixGly == 2:
 			ValeurGly2 = input("Entrez votre valeur en mmol/L\n :")
 			try:
 				ValeurGly2 = float(ValeurGly2)
 				Valeurgl = float(ValeurGly2) * 0.18
+
+				print("Votre dosage de glycémie en g/L est de", Valeurgl)
+
 			except:
 				print("Valeur incorrecte\n")
-			else:
-				print("Votre dosage de glycémie en g/L est de", Valeurgl)
+			
+
+			exit()

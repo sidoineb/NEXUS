@@ -30,7 +30,7 @@ def algo_glasgow():
 	verb = input("Votre choix :\n")
 	
 	try:
-		verb = [1,2,3,4,5)
+		verb = [1,2,3,4,5]
 		verb = int(verb)
 
 		print("Votre réponse enregistrèe est", verb)

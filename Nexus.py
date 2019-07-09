@@ -20,30 +20,30 @@ choix = input("Tapez votre choix :")
 
 # Choix de la glycémie capillaire
 
-if choix == 1:
+if choix == "1":
 	from Pack.Nexus_glycemie.py import algo_glycemie
 	algo_glycemie()
 	
 
 # Choix algorithme collier cervical
           
-if choix == 2:
+if choix == "2":
 	print("AlgoCC")
 
 # Choix calcul NIH
 
-if choix == 3:
+if choix == "3":
 	print("NIH")
 
 # Choix du calcul du score de Glasgow
 
-if choix == 4:
+if choix == "4":
 	from Pack.Nexus_glasgow.py import algo_glasgow
 	algo_glasgow()
 
 # Choix de la fiche d'intervention
 
-if choix == 5:
+if choix == "5":
 	print("Work In Progress")
 
 

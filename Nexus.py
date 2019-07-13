@@ -9,12 +9,13 @@ print("############################################\n")
 print("  1) Conversion glycémie capillaire")
 print("  2) Algo décision pose de collier cervical")
 print("  3) Calcul NIH")
-print("  4) Calcul score de Glasgow")
-print("  5) Fiche d'intervention\n")
+print("  4) Calcul score d'APGAR")
+print("  5) Calcul score de Glasgow")
+print("  6) Fiche d'intervention\n")
 
 # Variables des choix
 
-choix = [1,2,3,4]
+choix = [1,2,3,4,5,6]
 
 choix = input("Tapez votre choix :")
 
@@ -35,15 +36,21 @@ if choix == "2":
 if choix == "3":
 	print("NIH")
 
+# Choix du calcul du score d'APGAR
+
+if choix == "4"
+	print("APGAR")
+
+
 # Choix du calcul du score de Glasgow
 
-if choix == "4":
+if choix == "5":
 	from Pack.Nexus_glasgow.py import algo_glasgow
 	algo_glasgow()
 
 # Choix de la fiche d'intervention
 
-if choix == "5":
+if choix == "6":
 	print("Work In Progress")
 
 

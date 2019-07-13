@@ -38,7 +38,7 @@ if choix == "3":
 
 # Choix du calcul du score d'APGAR
 
-if choix == "4"
+if choix == "4":
 	print("APGAR")
 
 

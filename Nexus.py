@@ -22,7 +22,7 @@ choix = input("Tapez votre choix :")
 # Choix de la glycémie capillaire
 
 if choix == "1":
-	from PACK.Nexus_glycemie.py import algo_glycemie
+	from Pack.Nexus_glycemie.py import algo_glycemie
 	algo_glycemie()
 	
 
@@ -34,7 +34,7 @@ if choix == "2":
 # Choix calcul NIH
 
 if choix == "3":
-	from PACK.Nexus_nih.py import algo_nih
+	from Pack.Nexus_nih.py import algo_nih
 	algo_nih()
 
 # Choix du calcul du score d'APGAR
@@ -46,7 +46,7 @@ if choix == "4":
 # Choix du calcul du score de Glasgow
 
 if choix == "5":
-	from PACK.Nexus_glasgow.py import algo_glasgow
+	from Pack.Nexus_glasgow.py import algo_glasgow
 	algo_glasgow()
 
 # Choix de la fiche d'intervention

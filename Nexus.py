@@ -8,7 +8,7 @@ print("############################################\n")
 
 print("  1) Conversion glycémie capillaire")
 print("  2) Algo décision pose de collier cervical")
-print("  3) Calcul NIH")
+print("  3) Calcul du NIH")
 print("  4) Calcul score d'APGAR")
 print("  5) Calcul score de Glasgow")
 print("  6) Fiche d'intervention\n")
@@ -22,7 +22,7 @@ choix = input("Tapez votre choix :")
 # Choix de la glycémie capillaire
 
 if choix == "1":
-	from Pack.Nexus_glycemie.py import algo_glycemie
+	from PACK.Nexus_glycemie.py import algo_glycemie
 	algo_glycemie()
 	
 
@@ -34,7 +34,8 @@ if choix == "2":
 # Choix calcul NIH
 
 if choix == "3":
-	print("NIH")
+	from PACK.Nexus_nih.py import algo_nih
+	algo_nih()
 
 # Choix du calcul du score d'APGAR
 
@@ -45,7 +46,7 @@ if choix == "4":
 # Choix du calcul du score de Glasgow
 
 if choix == "5":
-	from Pack.Nexus_glasgow.py import algo_glasgow
+	from PACK.Nexus_glasgow.py import algo_glasgow
 	algo_glasgow()
 
 # Choix de la fiche d'intervention

@@ -23,7 +23,7 @@ Dans sa finalité, cet outils pourra être stocké sur le web, sur un hebergeur 
 
 .: TECHNIQUE :.
 
-Le langage utiliser pour créer ce programme sera Python (console, puis grpahique), puis ce script sera integré à des page HTML/CSS3 (via Gpython, que je vais apprendre à connaitre), pour être, après test en local, transféré sur un hebergeur "classique" (OVH, etc...)
+Le langage utiliser pour créer ce programme sera Python (console, puis graphique), puis ce script sera integré à des pages HTML/CSS3 (via Gpython, que je vais apprendre à connaitre), pour être, après test en local, transféré sur un hebergeur "classique" (OVH, etc...)
 En paralléle, une éventuelle solution nomade sera à évalué en fonction de la necessité de celle-ci. L'idée sera de remplacer la solution de l'hebergeur par un systéme de Raspberry Zero, module Wifi, batterie, etc. (style PirateBox https://daviddarts.com/piratebox ) à embarqué dans un VPSP, PMA, etc...
 
 .: DEVELOPPEMENT :.

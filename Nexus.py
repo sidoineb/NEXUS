@@ -18,6 +18,7 @@ print("  6) Fiche d'intervention\n")
 choix = [1,2,3,4,5,6]
 
 choix = input("Tapez votre choix :")
+choix = int(choix)
 
 # Choix de la glycémie capillaire
 
@@ -29,7 +30,9 @@ if choix == "1":
 # Choix algorithme collier cervical
           
 if choix == "2":
-	print("AlgoCC")
+	from Pack.Nexus_trauma.py import algo_trauma
+	algo_trauma()
+
 
 # Choix calcul NIH
 

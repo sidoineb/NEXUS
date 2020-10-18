@@ -13,6 +13,14 @@ print("  4) Calcul score d'APGAR")
 print("  5) Calcul score de Glasgow")
 print("  6) Fiche d'intervention\n")
 
+
+# Importation des modules
+
+from Pack.Nexus_glycemie import algo_glycemie
+from Pack.Nexus_trauma import algo_trauma
+from Pack.Nexus_nih import algo_nih
+from Pack.Nexus_glasgow import algo_glasgow
+
 # Variables des choix
 
 choix = [1,2,3,4,5,6]
@@ -23,21 +31,18 @@ choix = int(choix)
 # Choix de la glycémie capillaire
 
 if choix == "1":
-	from Pack.Nexus_glycemie.py import algo_glycemie
 	algo_glycemie()
 	
 
 # Choix algorithme collier cervical
           
 if choix == "2":
-	from Pack.Nexus_trauma.py import algo_trauma
 	algo_trauma()
 
 
 # Choix calcul NIH
 
 if choix == "3":
-	from Pack.Nexus_nih.py import algo_nih
 	algo_nih()
 
 # Choix du calcul du score d'APGAR
@@ -49,7 +54,6 @@ if choix == "4":
 # Choix du calcul du score de Glasgow
 
 if choix == "5":
-	from Pack.Nexus_glasgow.py import algo_glasgow
 	algo_glasgow()
 
 # Choix de la fiche d'intervention

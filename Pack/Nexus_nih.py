@@ -207,3 +207,29 @@ def algo_nih():
         print("Valeur incorrecte\n")
 
     calcul_nih = vigilance + orientation + commandes + oculomot + champ_visuel + paralysie_fac + mot_mb_sup + mot_mb_inf + ataxie + sensibilite + langage + dysarthrie + extinction
+
+    if clacul_nih == 0:
+        print(".: Score NIHSS :. = 0")
+        print("Pas de signe d'AVC")
+
+    elif (calcul_nih > 0) & (calul_nih < 5):
+        print(".: Score NIHSS :. =", calcul_nih)
+        print(" -> AVC mineur")
+
+    elif (calcul_nih > 4) & (calcul_nih < 16):
+        print(".: Score NIHSS :. =", calcul_nih)
+        print("AVC modéré")
+
+    elif (calcul_nih > 15) & (calcul_nih < 21):
+        print(".: Score NIHSS :. =", calucl_nih)
+        print("AVC sévére")
+
+    elif calcul_nih > 20:
+        print(".: Score NIHSS :. =", calcul_nih)
+        print("AVC grave")
+
+    print("Implications pratiques du score")
+    print("==============================="\n)
+    print("– Des signes mineurs / régressifs avec score NIHSS < 5 sont une contre-indication à la thrombolyse IV dans les infarctus cérébraux.")
+    print("  Ces infarctus « mineurs » sont souvent traités par bi-antiagrégation (comme pour les AIT).")
+    print("– Un score NIHSS > 16 dans un contexte d’infarctus cérébral malin avant 60 ans est une indication à la crâniectomie de décompression")

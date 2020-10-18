@@ -15,8 +15,8 @@ Le programme NEXUS est un projet sous license libre GNU GPL (https://www.gnu.org
 
 .: UTILISATION :.
 
-En premier lieu, une version console de NEXUS est propoposée comme solution basique des différents outils.
-Une version avec interface graphique est mis en place pour les différents dispositifs de secours (ex: PMA, PC, etc...) 
+En premier lieu, une version console de NEXUS est proposée comme solution basique aux différents outils.
+Une version avec interface graphique est mise en place pour les différents dispositifs de secours (ex: PMA, PC, etc...) 
 Enfin, cette suite d'ouils sera porté sur une application mobile, afin d'aider les IS et paramédics sur le terrain, dans leurs bilans et autres prises de décisions.
 Dans sa finalité, cet outils pourra être stocké sur le web, sur un hebergeur http classique (style OVH), mais il est possible d'envisager une version local wifi (sur RaspberryPi Zero) à embarquer dans les VPSP, PMA, etc.
 

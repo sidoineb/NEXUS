@@ -1,0 +1,32 @@
+# NEXUS Medical Suite - Dépendances Python
+# Suite d'outils médicaux et paramédicaux
+
+# Interface graphique (généralement incluse avec Python)
+tkinter>=8.6
+
+# Calculs scientifiques et analyse de données
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Graphiques et visualisation
+matplotlib>=3.5.0
+
+# Gestion des dates et temps
+python-dateutil>=2.8.0
+
+# Structure de données avancées
+dataclasses>=0.6  # Pour Python < 3.7, sinon inclus
+
+# Annotations de type
+typing-extensions>=4.0.0
+
+# Optionnel - pour fonctionnalités avancées futures
+# scipy>=1.7.0          # Calculs scientifiques avancés
+# pillow>=8.3.0         # Gestion d'images (logos, graphiques)
+# reportlab>=3.6.0      # Génération de PDF
+# openpyxl>=3.0.0       # Export Excel
+
+# Développement et tests (optionnel)
+# pytest>=6.0.0
+# black>=22.0.0
+# mypy>=0.950

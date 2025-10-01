@@ -20,11 +20,6 @@ Enfin, cette suite d'ouils sera porté sur une application mobile, afin d'aider 
 Dans sa finalité, cet outils pourra être stocké sur le web, sur un hebergeur http classique (style OVH), mais il est possible d'envisager une version local wifi (sur RaspberryPi Zero) à embarquer dans les VPSP, PMA, etc.
 
 
-## .: TECHNIQUE :.
-
-Le langage utiliser pour créer ce programme sera Python (console, puis graphique), puis ce script sera integré à des pages HTML/CSS3 (via Gpython, que je vais apprendre à connaitre), pour être, après test en local, transféré sur un hebergeur "classique" (OVH, etc...)
-En paralléle, une éventuelle solution nomade sera à évalué en fonction de la necessité de celle-ci. L'idée sera de remplacer la solution de l'hebergeur par un systéme de Raspberry Zero, module Wifi, batterie, etc. (style PirateBox https://daviddarts.com/piratebox ) à embarqué dans un VPSP, PMA, etc...
-
 ## .: Installation :.
 
 ### Prérequis

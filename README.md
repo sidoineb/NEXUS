@@ -57,7 +57,7 @@ python Nexus.py
 ```
 
 ### **Historique des versions**
-- **v2.0** : Interface graphique moderne, calculateurs avancés [upgrade en Vibe Coding par [Claude](https://claude.ai/chat)]
+- **v2.0** : Interface graphique moderne, calculateurs avancés [Upgrade en Vibe Coding par [Claude](https://claude.ai/chat)]
 - **v1.0** : Version console originale
 - **v0.1** : Prototype initial
 

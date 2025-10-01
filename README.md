@@ -1,6 +1,5 @@
 # [ Projet NEXUS ]
 # Suite Médicale d'Aide à la Décision
-================
 de Sidoine B.
 
 ![Nexus Logo](Nexus.jpg)

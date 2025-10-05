@@ -5,23 +5,23 @@ NEXUS est une suite complète d'outils médicaux et paramédicaux développée p
 
 ## 🎯 Public cible
 
-👨‍⚕️ Médecins : Urgentistes, internistes, généralistes
-👩‍⚕️ Personnel paramédical : Infirmiers, auxiliaires
-🔬 Techniciens de laboratoire : Analyses biologiques
-🚑 Secouristes : Premiers secours, SAMU
-🎓 Étudiants : Médecine, soins infirmiers
+- 👨‍⚕️ Médecins : Urgentistes, internistes, généralistes
+- 👩‍⚕️ Personnel paramédical : Infirmiers, auxiliaires
+- 🔬 Techniciens de laboratoire : Analyses biologiques
+- 🚑 Secouristes : Premiers secours, SAMU
+- 🎓 Étudiants : Médecine, soins infirmiers
 
 ## ✨ Fonctionnalités
 
 #### 📊 Calculateurs Médicaux
 
-Score de Glasgow : Évaluation neurologique
-Score APGAR : Évaluation néonatale
-Score NIH : Échelle d'AVC complet (13 critères)
-Conversion Glycémie : g/L ↔ mmol/L ↔ mg/dL
-Risque Cardiovasculaire : Framingham
-IMC : Indice de masse corporelle
-Clairance Créatinine : Cockcroft-Gault & MDRD
+- Score de Glasgow : Évaluation neurologique
+- Score APGAR : Évaluation néonatale
+- Score NIH : Échelle d'AVC complet (13 critères)
+- Conversion Glycémie : g/L ↔ mmol/L ↔ mg/dL
+- Risque Cardiovasculaire : Framingham
+- IMC : Indice de masse corporelle
+- Clairance Créatinine : Cockcroft-Gault & MDRD
 
 #### 📋 Valeurs Normales
 

@@ -3,11 +3,12 @@
 de Sidoine B.
 
 ![Nexus Logo](Nexus.jpg)
+
 ## .: OBJECTIFS :.
 
 NEXUS est une suite complète d'outils médicaux et paramédicaux développée pour accompagner les professionnels de santé dans leurs prises de décision cliniques quotidiennes. L'application offre une interface moderne et intuitive avec des calculateurs médicaux avancés, des valeurs normales biologiques et des outils de gestion patient.
 
-## .: LICENSE :.
+ ## .: LICENSE :.
 
 Le programme NEXUS est un projet sous license libre GNU GPL (https://www.gnu.org).
 
